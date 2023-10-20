@@ -1,0 +1,13 @@
+$main-font:'Nunito', sans-serif;
+$round-font:'Varela Round', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: $main-font;
+}
+img {
+    max-width: 100%;
+}

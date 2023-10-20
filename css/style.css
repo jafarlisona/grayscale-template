@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  min-height: 70px;
+  position: fixed;
+}
+nav .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70px;
+}
+nav .navbar .logo {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 700;
+}
+nav .navbar .pages ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+nav .navbar .pages ul li a {
+  color: black;
+  letter-spacing: 1px;
+}
+nav .navbar .pages ul li a:hover {
+  color: #64A19D;
+}
+
+header {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 100vh;
+}
+header .header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+}
+header .header h1 {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: 0.8rem;
+  font-weight: lighter;
+  font-family: "Varela Round", sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+header .header p {
+  color: rgba(255, 255, 255, 0.5019607843);
+  font-size: 20px;
+  width: 480px;
+  text-align: center;
+}
+header .header a {
+  display: block;
+  font-size: 13px;
+  color: white;
+  height: 60px;
+  width: 180px;
+  border-radius: 5px;
+  background-color: #64a19d;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 20px;
+  font-size: 80%;
+  font-weight: 600;
+}
+header .header a:hover {
+  background-color: #50817e;
+}
+
+#about {
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+#about .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+#about .container h1 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+}
+#about .container p {
+  color: rgba(255, 255, 255, 0.5019607843);
+  width: 750px;
+  text-align: center;
+}
+#about .container p a {
+  color: #64a19d;
+  text-decoration: underline;
+}
+#about .container p a:hover {
+  color: #50817e;
+}
+#about .container img {
+  max-width: 1225px;
+  min-height: 350px;
+}
+
+#projects {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 150px 0;
+}
+#projects .textpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#projects .textpart img {
+  max-height: 510px;
+  max-width: 816px;
+}
+#projects .textpart .text {
+  max-width: 410px;
+  min-height: 135px;
+  border-left: 8px solid #64a19d;
+  padding-left: 30px;
+  letter-spacing: 1px;
+}
+#projects .textpart .text h3 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+#projects .textpart .text p {
+  width: 368px;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+#projects .cards {
+  max-width: 1226px;
+  min-height: 870px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #000;
+  letter-spacing: 1px;
+}
+#projects .cards .img-card {
+  max-width: 613px;
+  min-height: 435px;
+}
+#projects .cards .text-card {
+  max-width: 613px;
+  min-height: 435px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#projects .cards .text-card h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
+}
+#projects .cards .text-card p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5019607843);
+  width: 450px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

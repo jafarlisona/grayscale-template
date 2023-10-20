@@ -1,0 +1,101 @@
+#about {
+  background: linear-gradient(
+    to bottom,
+    #000 0%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    h1 {
+      color: white;
+      font-family: $round-font;
+      font-weight: lighter;
+      font-size: 32px;
+    }
+    p {
+      color: #ffffff80;
+      width: 750px;
+      text-align: center;
+      a {
+        color: #64a19d;
+        text-decoration: underline;
+        &:hover {
+          color: #50817e;
+        }
+      }
+    }
+    img {
+      max-width: 1225px;
+      min-height: 350px;
+    }
+  }
+}
+#projects {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  padding: 150px 0;
+  .textpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-height: 510px;
+      max-width: 816px;
+    }
+    .text {
+      max-width: 410px;
+      min-height: 135px;
+      border-left: 8px solid #64a19d;
+      padding-left: 30px;
+      letter-spacing: 1px;
+      h3 {
+        font-size: 24px;
+        font-weight: lighter;
+      }
+      p {
+        width: 368px;
+        color: #00000080;
+      }
+    }
+  }
+  .cards {
+    max-width: 1226px;
+    min-height: 870px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #000;
+    letter-spacing: 1px;
+    .img-card {
+      max-width: 613px;
+      min-height: 435px;
+    }
+    .text-card {
+      max-width: 613px;
+      min-height: 435px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      h3 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: white;
+      }
+      p {
+        font-size: 14px;
+        color: #ffffff80;
+        width: 450px;
+        text-align: center;
+      }
+    }
+  }
+}
